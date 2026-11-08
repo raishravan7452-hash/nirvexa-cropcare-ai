@@ -1,0 +1,39 @@
+# Secrets and environment
+.env
+*.env
+secrets.json
+google-services.json
+serviceAccountKey.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+android/local.properties
+android/.gradle/
+
+# Node
+node_modules/
+
+# Datasets and trained models (large files)
+dataset/
+data/
+*.h5
+*.tflite
+*.pt
+*.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
